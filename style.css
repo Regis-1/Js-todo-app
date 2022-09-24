@@ -1,0 +1,62 @@
+.main-panel {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+
+    font-family: 'Lato', sans-serif;
+}
+
+#adding-bar {
+    display: flex;
+    justify-content: center;
+    min-height: 5vh;
+    background-color: #fffbfb4f;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+#items-list {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 85vh;
+    margin-top: 10px;
+    align-content: baseline;
+}
+
+.todo-item {
+    background-color: #feff9c;
+    max-width: 20%;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 8px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    min-width: 20%;
+}
+
+.todo-item:hover {
+    cursor: pointer;
+    background-color: #feff9ce6;
+}
+
+#todoItemName {
+    width: 60%;
+    border-radius: 8px;
+}
+
+#addBtn {
+    width: 5em;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-size: medium;
+    height: auto;
+}
