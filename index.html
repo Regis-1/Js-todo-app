@@ -15,8 +15,21 @@
 <body>
     <div class="main-panel">
         <div id="adding-bar">
-            <input id="todoItemName" type="text" placeholder="Do the washing...">
-            <button id="addBtn">+</button>
+            <div id="mainInfo">
+                <input id="todoItemName" type="text" placeholder="Do the washing...">
+                <button id="addBtn">+</button>
+            </div>
+            <div id="additionalInfo">
+                <div>
+                    <label for="colorInput">Note color:</label>
+                    <input type="color" id="colorInput">
+                </div>
+                <div>
+                    <button id="exportBtn">Export list</button>
+                    <button id="importBtn">Import list</button>
+                    <input type='file' id="getFile" style="display:none" accept="application/json">
+                </div>
+            </div>
         </div>
         <div id="items-list">
         </div>
